@@ -1,5 +1,4 @@
 var Clicker = function(){
-    this.counter = 0;
     this.start();
 };
 
@@ -11,7 +10,6 @@ Clicker.prototype.start = function(){
             console.log('found golden cookie!');
             self.clickGoldenCookie();
         }
-        self.counter++;
     }, 1);
 };
 
