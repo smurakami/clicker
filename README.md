@@ -6,11 +6,11 @@ CookieClickerのGameを介してではなく、jQueryを介してクリックを
 
 # How to Use
 
-ソースコードをコピーして、ブラウザのJavaScriptコンソールにペーストして使います。
+clicker.jsのソースコードをコピーして、ブラウザのJavaScriptコンソールにペーストして使います。
 
 MacのGoogle Chromeなら、command+alt+jでコンソールを開くことができます。
 
-ソースコードをペーストした後なら、以下のコードをコンソールに入力すると自動クリックを開始します。
+ソースコードをペーストした後に、以下のコードをコンソールに入力すると自動クリックを開始します。
 
 ```js
     var c = new Clicker();
